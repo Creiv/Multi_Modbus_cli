@@ -1,0 +1,28 @@
+{
+    "rethink": {
+        "host": "192.168.1.23",
+        "port": 28015,
+        "db": "ModbusDB"
+    },
+    "modbus": [
+        {
+            "host": "192.168.1.186",
+            "port": 502,
+            "id": 1,
+            "holdingRead": "0/5-9",
+            "coilRead": "",
+            "holdingWrite": "6/8",
+            "coilWrite": ""
+        },
+        {
+            "host": "172.31.195.155",
+            "port": 502,
+            "id": 2,
+            "holdingRead": "0/5-8",
+            "coilRead": "",
+            "holdingWrite": "6-7-9",
+            "coilWrite": ""
+        }
+    ],
+    "debug": "true"
+}
